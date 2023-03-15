@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+	<PackageManifest Version="2.0.0" xmlns="http://schemas.microsoft.com/developer/vsx-schema/2011" xmlns:d="http://schemas.microsoft.com/developer/vsx-schema-design/2011">
+		<Metadata>
+			<Identity Language="en-US" Id="emoji-icons" Version="1.5.2" Publisher="mightbesimon" />
+			<DisplayName>👉 Emoji File Icons 👈</DisplayName>
+			<Description xml:space="preserve">📚⚙️⚛️💅🌏🛢🍪🤐🦀🧪🐞⚠️🚨🚀🔨💡🗑👷‍♂️🔒🏞🎞🔈📂📦</Description>
+			<Tags>emoji,icon,file,product,theme,icon-theme,product-icon-theme,__web_extension,__sponsor_extension</Tags>
+			<Categories>Themes</Categories>
+			<GalleryFlags>Public</GalleryFlags>
+			<Badges><Badge Link="https://github.com/mightbesimon/vscode-emoji-icons/tags" ImgUri="https://img.shields.io/visual-studio-marketplace/v/mightbesimon.emoji-icons?label=" Description="version" />
+<Badge Link="https://mightbesimon.com" ImgUri="https://img.shields.io/vscode-marketplace/i/mightbesimon.emoji-icons?color=white&amp;label=&amp;logo=visualstudiocode&amp;logoColor=blue" Description="downloads" />
+<Badge Link="https://github.com/sponsors/mightbesimon" ImgUri="https://img.shields.io/badge/-Sponsor_Us-%23d73a49" Description="sponsor" />
+<Badge Link="https://github.com/mightbesimon/vscode-emoji-icons" ImgUri="https://github.com/mightbesimon/vscode-emoji-icons/actions/workflows/publish.yml/badge.svg" Description="publish" /></Badges>
+			<Properties>
+				<Property Id="Microsoft.VisualStudio.Code.Engine" Value="^1.64.0" />
+				<Property Id="Microsoft.VisualStudio.Code.ExtensionDependencies" Value="" />
+				<Property Id="Microsoft.VisualStudio.Code.ExtensionPack" Value="" />
+				<Property Id="Microsoft.VisualStudio.Code.ExtensionKind" Value="ui,workspace,web" />
+				<Property Id="Microsoft.VisualStudio.Code.LocalizedLanguages" Value="" />
+				
+				<Property Id="Microsoft.VisualStudio.Code.SponsorLink" Value="https://github.com/sponsors/mightbesimon" />
+				<Property Id="Microsoft.VisualStudio.Services.Links.Source" Value="https://github.com/mightbesimon/vscode-emoji-icons.git" />
+				<Property Id="Microsoft.VisualStudio.Services.Links.Getstarted" Value="https://github.com/mightbesimon/vscode-emoji-icons.git" />
+				<Property Id="Microsoft.VisualStudio.Services.Links.GitHub" Value="https://github.com/mightbesimon/vscode-emoji-icons.git" />
+				<Property Id="Microsoft.VisualStudio.Services.Links.Support" Value="https://github.com/mightbesimon/vscode-emoji-icons/issues" />
+				<Property Id="Microsoft.VisualStudio.Services.Links.Learn" Value="https://github.com/mightbesimon/vscode-emoji-icons#readme" />
+				<Property Id="Microsoft.VisualStudio.Services.Branding.Color" Value="#23282f" />
+				<Property Id="Microsoft.VisualStudio.Services.Branding.Theme" Value="dark" />
+				<Property Id="Microsoft.VisualStudio.Services.GitHubFlavoredMarkdown" Value="true" />
+				<Property Id="Microsoft.VisualStudio.Services.Content.Pricing" Value="Free"/>
+
+				
+				
+			</Properties>
+			<License>extension/LICENSE.md</License>
+			<Icon>extension/thumbnails/package.png</Icon>
+		</Metadata>
+		<Installation>
+			<InstallationTarget Id="Microsoft.VisualStudio.Code"/>
+		</Installation>
+		<Dependencies/>
+		<Assets>
+			<Asset Type="Microsoft.VisualStudio.Code.Manifest" Path="extension/package.json" Addressable="true" />
+			<Asset Type="Microsoft.VisualStudio.Services.Content.Details" Path="extension/README.md" Addressable="true" />
+<Asset Type="Microsoft.VisualStudio.Services.Content.Changelog" Path="extension/CHANGELOG.md" Addressable="true" />
+<Asset Type="Microsoft.VisualStudio.Services.Content.License" Path="extension/LICENSE.md" Addressable="true" />
+<Asset Type="Microsoft.VisualStudio.Services.Icons.Default" Path="extension/thumbnails/package.png" Addressable="true" />
+		</Assets>
+	</PackageManifest>

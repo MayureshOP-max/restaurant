@@ -1,0 +1,88 @@
+{
+	"name": "emoji-icons",
+	"displayName": "👉 Emoji File Icons 👈",
+	"description": "📚⚙️⚛️💅🌏🛢🍪🤐🦀🧪🐞⚠️🚨🚀🔨💡🗑👷‍♂️🔒🏞🎞🔈📂📦",
+	"icon": "thumbnails/package.png",
+	"galleryBanner": {
+		"color": "#23282f",
+		"theme": "dark"
+	},
+	"markdown": "github",
+	"badges": [
+		{
+			"url": "https://img.shields.io/visual-studio-marketplace/v/mightbesimon.emoji-icons?label=",
+			"href": "https://github.com/mightbesimon/vscode-emoji-icons/tags",
+			"description": "version"
+		},
+		{
+			"url": "https://img.shields.io/vscode-marketplace/i/mightbesimon.emoji-icons?color=white&label=&logo=visualstudiocode&logoColor=blue",
+			"href": "https://mightbesimon.com",
+			"description": "downloads"
+		},
+		{
+			"url": "https://img.shields.io/badge/-Sponsor_Us-%23d73a49",
+			"href": "https://github.com/sponsors/mightbesimon",
+			"description": "sponsor"
+		},
+		{
+			"url": "https://github.com/mightbesimon/vscode-emoji-icons/actions/workflows/publish.yml/badge.svg",
+			"href": "https://github.com/mightbesimon/vscode-emoji-icons",
+			"description": "publish"
+		}
+	],
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/mightbesimon/vscode-emoji-icons"
+	},
+	"sponsor": {
+		"url": "https://github.com/sponsors/mightbesimon"
+	},
+	"author": "mightbesimon",
+	"publisher": "mightbesimon",
+	"version": "1.5.2",
+	"engines": {
+		"vscode": "^1.64.0"
+	},
+	"categories": [
+		"Themes"
+	],
+	"contributes": {
+		"iconThemes": [
+			{
+				"id": "emoji-file-icons",
+				"label": "Emoji File Icons",
+				"path": "./file-icons/emoji-icon-theme.json"
+			}
+		],
+		"productIconThemes": [
+			{
+				"id": "emoji-product-icons",
+				"label": "Emoji Product Icons (Professional)",
+				"path": "./product-icons/emoji-product-icon-theme.json"
+			},
+			{
+				"id": "emoji-product-icons-fun",
+				"label": "Emoji Product Icons (Fun)",
+				"path": "./product-icons/emoji-fun-product-icon-theme.json"
+			}
+		]
+	},
+	"keywords": [
+		"emoji",
+		"icon",
+		"file",
+		"product",
+		"theme"
+	],
+	"__metadata": {
+		"id": "e5365a62-80a6-4943-b7c7-b448e69349d8",
+		"publisherId": "5614b0db-df6b-44a1-bd13-f4350e55757d",
+		"publisherDisplayName": "mightbesimon",
+		"targetPlatform": "undefined",
+		"isApplicationScoped": false,
+		"updated": false,
+		"isPreReleaseVersion": false,
+		"installedTimestamp": 1675673129562,
+		"preRelease": false
+	}
+}

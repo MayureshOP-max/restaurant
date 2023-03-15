@@ -1,0 +1,36 @@
+{
+	"name": "arc-horizon",
+	"displayName": "arc horizon",
+	"description": "arc horizon color theme",
+	"version": "0.0.3",
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/mx-mw/arc-horizon-vscode.git"
+	},
+	"engines": {
+		"vscode": "^1.63.0"
+	},
+	"categories": [
+		"Themes"
+	],
+	"publisher": "cardinal",
+	"contributes": {
+		"themes": [
+			{
+				"label": "Arc Horizon Dark",
+				"uiTheme": "vs-dark",
+				"path": "./themes/Arc Horizon Dark-color-theme.json"
+			}
+		]
+	},
+	"__metadata": {
+		"id": "31c7d6b1-1f5b-4b53-873f-f89da0f4f979",
+		"publisherId": "fb4164aa-ec7b-4890-a8b8-ab60f2d77436",
+		"publisherDisplayName": "cardinal",
+		"targetPlatform": "undefined",
+		"isApplicationScoped": false,
+		"updated": false,
+		"isPreReleaseVersion": false,
+		"installedTimestamp": 1677826081982
+	}
+}
